@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Library-plugin
+Bundle-SymbolicName: library-plugin
+Bundle-Version: 1.0.0
+Bundle-Vendor: rafanasev
+Automatic-Module-Name: library.plugin
+Bundle-RequiredExecutionEnvironment: JavaSE-21
+Export-Package: ru.library.service, 
+ ru.library.models
+Bundle-ClassPath: library.jar, .
