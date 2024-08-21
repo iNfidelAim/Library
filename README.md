@@ -4,7 +4,10 @@
 Library service
 ![image](https://github.com/user-attachments/assets/74dcf7e1-0316-4fd3-b06e-b65b45b584fb)
 
-Использование бэкенд части реализовано через плагин, т.е. надо собрать модуль из library.rest в (mvn clean install) JAR переименовать его в Library.jar и скопировать его в library.plugin.
+*Процесс запуска:*
+1. Открыть проект через Eclipse (три папки: app, library-plugin, library.rest)
+2. Cобрать модуль из library.rest в (mvn clean install) JAR переименовать его в Library.jar и скопировать его в папку library.plugin. (jar файл к репозитроию подгрузил в library-plugin)
+3. В Eclipse открыть app.product и нажать Launch an Eclipse application
 
 Программа Представляет собой подобие библиотеки(скриншот самого приложения).
 Можно создавать книги, редактировать или удалять, с читателями так же.
